@@ -11,7 +11,7 @@ const BOUTIQUE_CONFIG = {
   instagramUrl: "https://www.instagram.com/_shahlo_boutique_?psln=OWtmaXk2ZG16MjFj",
   instagramHandle: "@_shahlo_boutique_",
   address: "Центр бозори: 3-сектор, 8-дўкон",
-  mapsUrl: "https://yandex.uz/maps/?text=Центр+бозори",
+  mapsUrl: "https://yandex.uz/maps/-/CXrFIC~j",
   workHours: {
     start: 9, // 09:00
     end: 19   // 19:00
