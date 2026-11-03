@@ -1,0 +1,36 @@
+/* Custom luxury styling for Shahlo Boutique */
+
+/* Custom smooth scroll & selection */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Glassmorphism utility */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Gold shimmer effect */
+.gold-text-shimmer {
+  background: linear-gradient(90deg, #845C42 0%, #D4AF37 50%, #845C42 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Button active push sensation */
+button:active, a:active {
+  transform: scale(0.98);
+}
+
