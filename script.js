@@ -14,7 +14,7 @@ const BOUTIQUE_CONFIG = {
   mapsUrl: "https://yandex.uz/maps/?text=Центр+бозори",
   workHours: {
     start: 9, // 09:00
-    end: 20   // 20:00
+    end: 19   // 19:00
   }
 };
 
